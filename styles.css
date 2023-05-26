@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin-top: 10%;
+    width: 20%;
+    /* border:1px solid red; */
+    height: 50vh;
+}
+
+
+#pass1 {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    height: 25px;
+
+}
+
+#pass2 {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    height: 25px;
+}
+
+form button {
+    margin-right: 10%;
+}
+
+form #cornfim {
+    margin-right: 10%;
+}
+
+#message {
+    display: none;
+}
